@@ -1,14 +1,8 @@
 import styled from "styled-components";
-import MenuItem from "@material-ui/core/MenuItem";
+import './menu.css'
+
 
 export default function Menu() {
-
-  const [click, setClick] = React.useState(null); 
-
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  }
-
   return (
 
     
@@ -17,8 +11,7 @@ export default function Menu() {
       <h1>Push - [ 2.22.1 - 27062022 ]</h1>
     </div>
       <StyledMenu>
-        <li
-        onClick={handleClick}>Configurações</li>
+        <li>Configurações</li>
         <li>Cadastro</li>
         <li>Processo</li>
         <li>Consultas</li>
