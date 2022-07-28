@@ -1,34 +1,42 @@
-import styled from "styled-components";
-import './menu.css'
-
+import "./menu.css";
 
 export default function Menu() {
   return (
-
-    
     <>
-    <div>
-      <h1>Push - [ 2.22.1 - 27062022 ]</h1>
-    </div>
-      <StyledMenu>
-        <li>Configurações</li>
-        <li>Cadastro</li>
-        <li>Processo</li>
-        <li>Consultas</li>
-        <li>Centificados</li>
-        <li>Ultilitario</li>
-        <li>Redes Sociais</li>
-      </StyledMenu>
+
+   <ul>
+
+   
+      <li> <a href="#">Configurações</a></li>
+      <li><a href="#">Configurações</a>
+
+
+        <ul>
+          <li><a href="#">jogos</a></li>
+          <li><a href="#">jogos</a></li>
+          <li><a href="#">jogos</a>
+          </li><li><a href="#">jogos</a></li>
+        </ul>
+
+
+      </li>
+      <li>
+        <a href="#">Configurações</a>
+      </li>
+      <li>
+        <a href="#">Configurações</a>
+      </li>
+      <li>
+        <a href="#">Configurações</a>
+      </li>
+      <li>
+        <a href="#">Configurações</a>
+      </li>
+      <li>
+        <a href="#">Configurações</a>
+      </li>
+
+  </ul>
     </>
   );
 }
-
-const StyledMenu = styled.h4`
-color:black;
-display: flex;
-flex-wrap:wrap;
-justify-content:space-between;
-text-align: center;
-margin-top: 15px;
-background-color: red;
-`
