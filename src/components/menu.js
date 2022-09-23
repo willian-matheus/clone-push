@@ -7,7 +7,7 @@ export default function Menu() {
       <nav className="dp-menu">
         <ul>
           <li>
-            <a href="#">Principal</a>
+            <a href="@">Principal</a>
           </li>
           <li>
             <a href="#">Lojas</a>
@@ -41,6 +41,21 @@ export default function Menu() {
           </li>
           <li>
             <a href="#">Configurações</a>
+
+            <ul>
+              <li>
+                <a href="#">Text1</a>
+              </li>
+              <li>
+                <a href="#">Text2</a>
+              </li>
+              <li>
+                <a href="#">Text3</a>
+              </li>
+              <li>
+                <a href="#">Text4</a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
