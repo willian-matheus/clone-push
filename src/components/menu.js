@@ -38,6 +38,7 @@ export default function Menu() {
           </li>
           <li>
             <a href="#">Sobre</a>
+            
           </li>
           <li>
             <a href="#">Configurações</a>
