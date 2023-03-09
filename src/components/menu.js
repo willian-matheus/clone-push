@@ -28,7 +28,7 @@ export default function Menu() {
             </ul>
           </li>
           <li>
-            <a href="#">Eventossssss</a>
+            <a href="#">Eventos</a>
           </li>
           <li>
             <a href="#">Vagas</a>
